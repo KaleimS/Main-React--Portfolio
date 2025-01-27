@@ -3,14 +3,14 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 function About() {
   return (
-    <div className="font-Roboto h-[40vh] bg-white flex flex-col items-center justify-center text-center">
-      <div className="flex items-center space-x-4 mb-4">
-        <ChevronRightIcon className="w-6 h-6 text-yellow-900" />
+    <div className="font-Roboto h-auto sm:h-[40vh] bg-white flex flex-col items-center justify-center text-center p-4">
+      <div className="flex items-center justify-center space-x-4 mb-4">
+        <ChevronRightIcon className="w-6 h-6 text-yellow-900 hidden sm:block" />
         <h2 className="text-3xl font-bold text-yellow-900 mb-4">About Me</h2>
-        <ChevronLeftIcon className="w-6 h-6 text-yellow-900" />
+        <ChevronLeftIcon className="w-6 h-6 text-yellow-900 hidden sm:block" />
       </div>
 
-      <p className="text-md font-light text-black pl-16 pr-16">
+      <p className="text-sm sm:text-md md:text-lg font-light text-black px-4 sm:px-16">
         Hi I'm Kaleim, I am a very passionate Web Developer who loves creativity
         and expressing that creativity in the endless void of coding. I love
         exploring new ideas and outcomes to expand my knowledge and better
