@@ -26,7 +26,7 @@ function Header() {
   return (
     <div>
       <Disclosure as="nav" className="">
-        <div className="mx-auto  px-2 sm:px-6 lg:px-8 bg-yellow-100">
+        <div className="mx-auto  px-2 sm:px-6 lg:px-8 bg-white">
           <div className="relative flex h-28 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
@@ -78,7 +78,7 @@ function Header() {
                     className={classNames(
                       item.current
                         ? "bg-gray-900 text-black"
-                        : "text-black hover:bg-white hover:text-black transition ease-in-out delay-100 hover:scale-90",
+                        : "text-black hover:bg-yellow-100 hover:text-white transition ease-in-out delay-100 hover:scale-90",
                       "rounded-md px-8 py-2 text-xl font-light"
                     )}
                   >

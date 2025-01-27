@@ -8,7 +8,6 @@ import Contact from "./Contact.jsx";
 function Welcome() {
   return (
     <div className="font-Roboto h-screen flex flex-col">
-      {/* Header */}
       <Header />
       <section id="hero">
         <Hero />
