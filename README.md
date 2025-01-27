@@ -2,7 +2,7 @@
   # Kaleim Saunders React Portfolio
   The main purpose of this project was to created an updated Portfolio to showcase the progress ive made from previous portfolios. It also gives me a way to showcase my personal and commercial projects.
 
-  Deployed Link HERE: 
+  Deployed Link HERE: https://kaleimsaundersportfolio.netlify.app/
 
   Previous Portfolios:
   https://kaleims-react-portfolio.netlify.app/
