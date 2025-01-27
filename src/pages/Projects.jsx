@@ -1,9 +1,9 @@
 import React from "react";
 import { ArrowLongRightIcon } from "@heroicons/react/16/solid";
-import suitestay from "../../public/images/suitestay.png";
-import healthBites from "../../public/images/HealthyBites.png";
-import passwordGen from "../../public/images/passwordGenerator.png";
-import codeQuiz from "../../public/images/CodeQuiz.png";
+import suitestay from "/images/suitestay.png";
+import healthBites from "/images/HealthyBites.png";
+import passwordGen from "/images/PasswordGenerator.png";
+import codeQuiz from "/images/CodeQuiz.png";
 
 function Projects() {
   return (
